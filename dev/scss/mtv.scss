@@ -1,0 +1,18 @@
+* {box-sizing: border-box;
+      font: normal 12px arial;
+      margin: 0px;
+       padding: 0px;
+      }
+
+    #container {width: 900px; margin: 0px auto;}
+
+    nav {width: 100%;}
+    nav ul {float: left; width: 100%; margin: 0px; padding: 10px 0 0 47px; list-style: none; background: #FFCB2D; }
+    nav li {float: left; margin: 0 1px 0 0; padding: 3px;}
+
+    section {width: 100%; float: left;}
+    div.tier {width: 100%; float: left;}
+    section div.tier ul {float: left; width: 100%; margin: 0px; padding: 10px 0 10px 20px; list-style: none; background: blue;}
+    section div.tier ul li {float: left; width: 50%;}
+    section div.tier ul li div.imageHolder {float: left; width: 50%;}
+    section div.tier ul li div.copyHolder {float: left; width: 50%; padding-right: 10px; color: #FFFFFF;}
